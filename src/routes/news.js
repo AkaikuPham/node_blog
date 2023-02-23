@@ -4,6 +4,6 @@ const router = express.Router();
 
 // newwController.index();
 
-            router.use('/', newwController.index);
+router.use('/', newwController.index);
 
 module.exports = router;
