@@ -1,9 +1,9 @@
 const express = require('express');
-const newwController = require('../app/controllers/NewController');
+const newController = require('../app/controllers/NewController');
 const router = express.Router();
 
-// newwController.index();
+// newController.index();
 
-router.use('/', newwController.index);
+router.get('/', newController.index);
 
 module.exports = router;
